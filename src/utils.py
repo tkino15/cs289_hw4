@@ -28,6 +28,7 @@ def plot_costs(costs_df, fig_path):
     ax.set_ylabel('cost function (log loss)')
     ax.set_ylim(0, float(costs_df.max().max()) * 1.1)
     ax.grid()
+    fig.tight_layout()
     fig.savefig(fig_path)
 
 

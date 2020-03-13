@@ -3,6 +3,7 @@
 .vscode
 *.mat
 *.png
+*.csv
 download
 
 # Byte-compiled / optimized / DLL files

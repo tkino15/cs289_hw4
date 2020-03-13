@@ -46,5 +46,5 @@ if __name__ == "__main__":
 
     # plot
     costs_df = pd.concat([bgd_costs_df, sgd_costs_df, decay_costs_df], axis=0)
-    fig_path = Path('figures/3_2.png')
+    fig_path = Path('figures/iterations_vs_costs.png')
     plot_costs(costs_df, fig_path)
